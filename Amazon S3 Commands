@@ -1,0 +1,11 @@
+Install AWS:
+# sudo pip install awscli
+
+Configure AWS:
+# aws configure
+
+List Files:
+# aws s3 ls <bucket-path>
+
+List Files with Human Readable Information
+# aws s3 ls --recursive --human-readable --summarize  <bucket-path>
